@@ -68,5 +68,8 @@
     <module>CCSDS_MC_API</module>
     <module>CCSDS_TEST_MAL_API</module>
     <module>CCSDS_TEST_COM_API</module>
+    <module>CCSDS_PLANNING_DATA_TYPES_API</module>
+    <module>CCSDS_PLANNING_API</module>
+    <module>CCSDS_AUTOMATION_API</module>
   </modules>
 </project>
