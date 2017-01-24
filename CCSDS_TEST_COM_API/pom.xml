@@ -19,12 +19,12 @@
   <parent>
     <groupId>int.esa.ccsds.mo</groupId>
     <artifactId>POM</artifactId>
-    <version>2</version>
+    <version>6</version>
     <relativePath/>
   </parent>
 
   <artifactId>API_COM_TEST</artifactId>
-  <version>1.0.1</version>
+  <version>1.2</version>
   <packaging>jar</packaging>
 
   <name>ESA TEST COM Java API</name>
@@ -59,13 +59,12 @@
     <developer>
       <id>SamCooper</id>
       <name>Sam Cooper</name>
-      <email>sam.cooper@scisys.co.uk</email>
+      <email>sam@brightascension.com</email>
       <url>https://github.com/SamCooper</url>
     </developer>
   </developers>
 
   <properties>
-    <extra.specification.version>1.0.1</extra.specification.version>
     <ccsds.specification.download.skip>false</ccsds.specification.download.skip>
     <ccsds.specification.download.artifact>MOXML_Extra</ccsds.specification.download.artifact>
     <ccsds.specification.download.version>${extra.specification.version}</ccsds.specification.download.version>

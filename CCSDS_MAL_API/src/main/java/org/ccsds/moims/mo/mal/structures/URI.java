@@ -20,6 +20,8 @@
  */
 package org.ccsds.moims.mo.mal.structures;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.ccsds.moims.mo.mal.MALDecoder;
 import org.ccsds.moims.mo.mal.MALEncoder;
 import org.ccsds.moims.mo.mal.MALException;
@@ -45,6 +47,13 @@ public class URI implements Attribute
    */
   public URI(final String value)
   {
+    if(null == value)
+    {
+      Logger.getLogger(URI.class.getName()).log(Level.WARNING, 
+          "The URI has been initialized with an invalid null value. Problems might occur while encoding the element.", 
+          new MALException());
+    }
+
     this.value = value;
   }
 

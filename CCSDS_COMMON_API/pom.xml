@@ -19,12 +19,12 @@
   <parent>
     <groupId>int.esa.ccsds.mo</groupId>
     <artifactId>POM</artifactId>
-    <version>2</version>
+    <version>6</version>
     <relativePath/>
   </parent>
 
   <artifactId>API_COMMON</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-RC1</version>
   <packaging>jar</packaging>
 
   <name>ESA Common Java API</name>
@@ -59,13 +59,12 @@
     <developer>
       <id>SamCooper</id>
       <name>Sam Cooper</name>
-      <email>sam.cooper@scisys.co.uk</email>
+      <email>sam@brightascension.com</email>
       <url>https://github.com/SamCooper</url>
     </developer>
   </developers>
 
   <properties>
-    <ccsds.specification.version>1.1-SNAPSHOT</ccsds.specification.version>
     <ccsds.specification.download.skip>false</ccsds.specification.download.skip>
     <ccsds.specification.download.directory>${project.build.directory}</ccsds.specification.download.directory>
     <ccsds.specification.download.filter>**/ServiceDefCommon.xml</ccsds.specification.download.filter>
